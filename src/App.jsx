@@ -8,17 +8,15 @@ import BinaryRain from './components/common/BinaryRain'
 function App() {
   return (
     <Router>
-      <NavBar />
       <BinaryRain></BinaryRain>
       <div
         className="content"
         style={{
           position: "relative",
           zIndex: 1,
-          width: "100%",
-          height: "100%",
         }}
       >
+          <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/work_experience" component={WorkExperience} />

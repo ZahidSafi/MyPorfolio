@@ -51,7 +51,7 @@ const BinaryRain = () => {
 
   const draw = () => {
     // draw a semi transparent black rectangle on top of the scene to slowly fade older characters
-    ctx.fillStyle = "rgba( 0 , 0 , 0 , " + 0.1 + " )";
+    ctx.fillStyle = "rgba( 0 , 0 , 0 , " + 0.04 + " )";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     // pick a font slightly smaller than the tile size
