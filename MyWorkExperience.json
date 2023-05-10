@@ -1,0 +1,17 @@
+[
+    {
+        "timeline": "August 2021 - March 2023",
+        "titleAndCompany": "Software Developer, Backend @ BambooHR",
+        "description": "As a collaborative team member, I played a key role in developing and maintaining culture solutions and insights for BambooHR customers using PHP and MySQL, leading to user-friendly applications. I co-led the creation of an intuitive survey feature that improved data collection and analysis, and pioneered a dynamic training widget to boost training completion rates. By optimizing MySQL queries, I significantly enhanced the user experience for larger organizations. My involvement in the full lifecycle of software development ensured high-quality, reliable solutions, while my effective communication and knowledge-sharing fostered a positive team environment and continuous improvement."
+    },
+    {
+        "timeline": "February 2020 - April 2021",
+        "titleAndCompany": "Identity and Access Management Intern @ University of Utah",
+        "description": "I successfully installed, configured, and deployed a full-stack open-source enterprise software package utilizing technologies such as Docker, Java, Apereo CAS, Git, Tomcat, HTML, and Linux. My collaboration with team members led to the modernization of the University's login page, resulting in an improved user experience and enhanced security. I developed a tailored Spring Boot application to streamline user attribute management and assisted in administering CAS JSON files, ensuring system stability and integrity. This hands-on experience in identity and access management significantly contributed to the overall security and functionality of the University's systems and applications."
+    },
+    {
+        "timeline": "January 2018 - February 2020",
+        "titleAndCompany": "Microsoft Support @ Education at Work",
+        "description": "I excelled in providing exceptional customer support for Office 365 programs, effectively resolving technical issues and offering clear solutions and guidance on best practices. In addition to educating customers on product features and optimization, I consistently received five-star ratings for my outstanding service, contributing to the superior performance of our support site. By collaborating with team members to share knowledge and improve response times, I played a crucial role in enhancing first-contact resolution rates and ensuring a high level of customer satisfaction."
+    }
+]

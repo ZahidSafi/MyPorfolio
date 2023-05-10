@@ -3,7 +3,7 @@ import NavBar from "./components/shared/NavBar";
 import Projects from "./components/pages/Projects";
 import Home from "./components/pages/Home";
 import WorkExperience from "./components/pages/WorkExperience";
-import BinaryRain from './components/common/BinaryRain'
+import BinaryRain from "./components/common/BinaryRain";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           zIndex: 1,
         }}
       >
-          <NavBar />
+        <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/work_experience" component={WorkExperience} />
