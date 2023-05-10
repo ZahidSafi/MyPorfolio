@@ -16,7 +16,7 @@ const Home = () => {
         ALLOW ME TO <strong className="text-purple-400"> INTRODUCE</strong> MYSELF
         </h1>
         <p className="pt-14 text-xl text-left text-white">
-          I am a recent [graduate]  from the University of Utah and a dedicated
+          I am a recent graduate from the University of Utah and a dedicated
           Software Developer with nearly 2 years of experience in Backend
           Software Development. My enthusiasm for technology led me to earn a
           degree in Computer Engineering, with a primary focus on Software
