@@ -4,19 +4,19 @@ const Home = () => {
   return (
     <div>
       <div className="max-w-screen-xl mx-auto pt-36  pb-8">
-        <h1 className="text-5xl font-extrabold text-white ">Hello!</h1>
+        <h1 className="text-5xl font-extrabold text-white ">Hello! Welcome To My Porfolio!</h1>
         <h1 className="text-5xl font-extrabold text-white">
           I'm <strong className="text-purple-400"> Zahid Safi</strong>
         </h1>
-        <p className="my-4 text-lg text-purple-400">I am a Software Engineer</p>
+        <p className="my-4 text-2xl text-purple-400">a Software Engineer and avid enthusiast of technology</p>
       </div>
       <div className="max-w-screen-xl mx-auto pt-36 pr-0 pb-8">
         <div>
         <h1 className="text-5xl font-extrabold text-white">
-          LET ME <strong className="text-purple-400"> INTRODUCE</strong> MYSELF
+        ALLOW ME TO <strong className="text-purple-400"> INTRODUCE</strong> MYSELF
         </h1>
         <p className="pt-14 text-xl text-left text-white">
-          I am a recent graudate from the University of Utah and a dedicated
+          I am a recent [graduate]  from the University of Utah and a dedicated
           Software Developer with nearly 2 years of experience in Backend
           Software Development. My enthusiasm for technology led me to earn a
           degree in Computer Engineering, with a primary focus on Software
