@@ -39,8 +39,6 @@ const Home = () => {
           learn
         </p>
         </div>
-
-        
       </div>
     </div>
   );
