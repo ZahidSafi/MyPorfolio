@@ -22,6 +22,7 @@ const Projects = () => {
                   name: repo.name,
                   description: repo.description,
                   languages: repo.topics,
+                  html_url: repo.html_url,
                 };
           });
           setRepoData(filteredRepos);
@@ -43,6 +44,7 @@ const Projects = () => {
           name={repo.name}
           description={repo.description}
           languages={repo.languages}
+          repoLink={repo.html_url}
         />);
       })}
     </div>
