@@ -18,14 +18,14 @@ const Projects = () => {
         const filteredRepos = repos
           .filter((repo) => !repo.fork)
           .map((repo) => {
-                return {
-                  name: repo.name,
-                  description: repo.description,
-                  languages: repo.topics,
-                  html_url: repo.html_url,
-                };
+            return {
+              name: repo.name,
+              description: repo.description,
+              languages: repo.topics,
+              html_url: repo.html_url,
+            };
           });
-          setRepoData(filteredRepos);
+        setRepoData(filteredRepos);
       })
       .catch((error) => {
         console.log(error);
@@ -33,20 +33,24 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      {/* <h1 className="text-5xl text-center font-extrabold text-white opacity-0 animate-fade-in-down">
-          My Past <strong className="text-purple-400"> Projects</strong>
-        </h1> */}
-      {repoData.map((repo, index) => {
-        return (<ProjectItems
-          key={index}
-          index={index}
-          name={repo.name}
-          description={repo.description}
-          languages={repo.languages}
-          repoLink={repo.html_url}
-        />);
-      })}
+    <div className="max-w-screen-xl flex flex-col items-center justify-between mx-auto p-4 opacity-0 animate-fade-in-down">
+      <h1 className="text-5xl text-center font-extrabold mb-5 text-white opacity-0 animate-fade-in-down">
+        My Past <strong className="text-purple-400"> Projects</strong>
+      </h1>
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        {repoData.map((repo, index) => {
+          return (
+            <ProjectItems
+              key={index}
+              index={index}
+              name={repo.name}
+              description={repo.description}
+              languages={repo.languages}
+              repoLink={repo.html_url}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

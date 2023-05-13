@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -12,19 +11,20 @@ const NavBar = () => {
   return (
     <nav className="backdrop-blur-sm bg-black bg-opacity-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <span className="self-center text-3xl font-semibold whitespace-nowrap text-purple-400">
-          ZS
-        </span>
-        
+        <Link to="/">
+          <span className="self-center text-3xl font-semibold whitespace-nowrap text-purple-400">
+            ZS
+          </span>
+        </Link>
+
         <button
           onClick={toggleMenu}
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 hover:bg-gray-700 focus:ring-gray-600"
+          className="inline-flex items-center p-2 ml-3 text-sm text-purple-400 rounded-lg md:hidden  focus:outline-none focus:shadow-outline-purple"
           aria-controls="navbar-default"
           aria-expanded="false"
         >
-          <span className="sr-only">Open main menu</span>
           <svg
             className="w-6 h-6"
             aria-hidden="true"
@@ -43,18 +43,23 @@ const NavBar = () => {
           className={`${
             menuOpen ? "block" : "hidden"
           } w-full md:block md:w-auto`}
-          
         >
           <ul className="text-2xl flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 md:border-0">
-            <li className="block py-2 pl-3 pr-4 text-purple-400 hover:bg-gray-700">
-              <Link to="/">Home</Link>
-            </li>
-            <li className="block py-2 pl-3 pr-4 text-purple-400 hover:bg-gray-700">
-              <Link to="/work_experience">Work Experience</Link>
-            </li>
-            <li className="block py-2 pl-3 pr-4 text-purple-400 hover:bg-gray-700">
-              <Link to="/projects">Projects</Link>
-            </li>
+            <Link to="/">
+              <li className="block py-2 pl-3 pr-4 text-purple-400 hover:animate-pulse">
+                Home
+              </li>
+            </Link>
+            <Link to="/work_experience">
+              <li className="block py-2 pl-3 pr-4 text-purple-400 hover:animate-pulse">
+                Work Experience
+              </li>
+            </Link>
+            <Link to="/projects">
+              <li className="block py-2 pl-3 pr-4 text-purple-400 hover:animate-pulse">
+                Projects
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

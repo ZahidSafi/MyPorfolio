@@ -3,7 +3,7 @@ import React from "react";
 const ProjectItems = (props) => {
   return (
     <a href={`${props.repoLink}`} target="_blank">
-      <div className="transition ease-in-out delay-100 max-w-sm p-6 backdrop-blur-sm bg-black bg-opacity-5 border border-purple-400 rounded-lg shadow-md shadow-purple-400 mb-5 hover:-translate-y-1 hover:scale-105">
+      <div className="transition ease-in-out delay-100 max-w-sm p-6 backdrop-blur-sm bg-black bg-opacity-5 border border-purple-400 rounded-lg shadow-md shadow-purple-400 mb-5 mr-5 hover:-translate-y-1 hover:scale-105">
         <svg
           class="text-purple-400"
           aria-hidden="true"
