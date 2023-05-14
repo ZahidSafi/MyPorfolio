@@ -60,11 +60,12 @@ const NavBar = () => {
                 Projects
               </li>
             </Link>
-            <Link to="/resume">
-              <li className="block py-2 pl-3 pr-4 text-purple-400 hover:animate-pulse">
+            <li className="block py-2 pl-3 pr-4 text-purple-400 hover:animate-pulse">
+              <a href="https://raw.githubusercontent.com/ZahidSafi/ZahidSafiResume/master/ZahidSafiResume.pdf">
+                <i className="uil uil-file-download"></i>
                 Resume
-              </li>
-            </Link>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
