@@ -60,6 +60,11 @@ const NavBar = () => {
                 Projects
               </li>
             </Link>
+            <Link to="/resume">
+              <li className="block py-2 pl-3 pr-4 text-purple-400 hover:animate-pulse">
+                Resume
+              </li>
+            </Link>
           </ul>
         </div>
       </div>

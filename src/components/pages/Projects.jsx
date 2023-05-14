@@ -16,7 +16,7 @@ const Projects = () => {
       })
       .then((repos) => {
         const filteredRepos = repos
-          .filter((repo) => !repo.fork)
+          .filter((repo) => (!repo.fork && repo.name !== "ZahidSafiResume"))
           .map((repo) => {
             return {
               name: repo.name,
