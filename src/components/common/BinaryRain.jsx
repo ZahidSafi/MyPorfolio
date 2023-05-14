@@ -77,7 +77,7 @@ const BinaryRain = () => {
   return (
     <canvas
       id="canvas"
-      className="fixed z-0 h-max"
+      className="fixed z-0 h-max h-full w-full"
     ></canvas>
   );
 };
