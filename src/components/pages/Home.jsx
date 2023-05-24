@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       <div className="max-w-screen-xl md:mx-auto pt-36 pb-8 ml-4 mr-4 opacity-0 animate-fade-in-down" style={{ animationDelay: `0.1s` }}>
-        <h1 className="text-5xl font-extrabold text-white ">Hello! Welcome To My Porfolio!</h1>
+        <h1 className="text-5xl font-extrabold text-white ">Hello! Welcome To My Portfolio!</h1>
         <h1 className="text-5xl font-extrabold text-white">
           I'm <strong className="text-purple-400"> Zahid Safi</strong>
         </h1>
